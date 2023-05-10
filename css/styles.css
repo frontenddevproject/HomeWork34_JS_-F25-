@@ -1,7 +1,6 @@
 html, body {
    min-height: 100vh;
- }
- 
+}
 body {
    display: flex;
    justify-content: center;
@@ -12,7 +11,6 @@ body {
    color: #fff;
    font-family: Arial, sans-serif;
 }
-
 .form {
    max-width: 500px;
    min-height: 600px;
@@ -31,7 +29,6 @@ body {
    align-items: center;
    gap:25px;
    height: 100%;
-   
 }
 .header-form {
    background-color: #242156;
@@ -68,9 +65,10 @@ body {
    border-radius: 10px;
    cursor: pointer; 
    border: none;
+   transition: all 0.4s;
 }
 .footer-form-button:hover{
-   background: linear-gradient(#50831e, #325214) ;
+   background: linear-gradient(#50831e, #325214);
 }
 .footer-form-button:active{
    transform: scale(0.95);
